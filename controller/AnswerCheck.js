@@ -4,7 +4,7 @@ document.addEventListener("keypress", function (e) {
     answer = document.getElementById('answer-input');
     img.classList.add('reveal-op');
     answer.disabled = true;
-    if (answer.value.toLowerCase() === questionOperator.name) {
+    if (answer.value.toLowerCase().trim() === questionOperator.name) {
       document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1;
       if (parseInt(document.getElementById('score').innerHTML) == 4) {
         img.classList.add('level-2');
