@@ -160,7 +160,7 @@ const operator = [
     art: '../content/images/operators/carnelian.png'
   },
   {
-    name: 'castle 3',
+    name: 'castle-3',
     art: '../content/images/operators/castle-3.png'
   },
   {
@@ -184,7 +184,7 @@ const operator = [
     art: "../content/images/operators/ch'en.png"
   },
   {
-    name: 'chestnunt',
+    name: 'chestnut',
     art: '../content/images/operators/chestnunt.webp'
   },
   {
