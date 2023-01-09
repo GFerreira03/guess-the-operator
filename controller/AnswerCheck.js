@@ -6,7 +6,7 @@ document.addEventListener("keypress", function (e) {
     answer.disabled = true;
     if (answer.value.toLowerCase().trim() === questionOperator.name) {
       document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1;
-      if (parseInt(document.getElementById('score').innerHTML) == 4) {
+      if (parseInt(document.getElementById('score').innerHTML) == 10) {
         img.classList.add('level-2');
       }
       setTimeout(newRound, 3000);
