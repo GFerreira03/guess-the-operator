@@ -12,16 +12,17 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+
 }
 
 #question-img {
-  height: 75vh;
-
+  max-height: 75vh;
+  padding: 0 6em;
   filter: brightness(0%);
 }
 
 #question-img.level-2 {
-  filter: brightness(0%) blur(1rem);
+  filter: brightness(0%) blur(15px);
 }
 
 #question-img.reveal-op {
@@ -34,12 +35,13 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 0 6em;
 }
 
 #answer-input {
   height: 3.5ch;
-  width: 45rem;
   font-size: 2em;
+  flex: 1;
 
   text-align: center;
 
@@ -52,6 +54,6 @@ body {
 h3 {
   color: #a8a8a8;
   position: absolute;
-  font-size: 34rem;
+  font-size: 34em;
   z-index: -2;
 }
