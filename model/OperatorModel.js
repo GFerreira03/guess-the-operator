@@ -232,7 +232,7 @@ const operator = [
     art: '../content/images/operators/deepcolor.png'
   },
   {
-    name: 'dobbermann',
+    name: 'dobermann',
     art: '../content/images/operators/dobbermann.png'
   },
   {
@@ -300,7 +300,7 @@ const operator = [
     art: '../content/images/operators/fartooth.png'
   },
   {
-    name: 'FEater',
+    name: 'feater',
     art: '../content/images/operators/FEater.png'
   },
   {
@@ -468,7 +468,7 @@ const operator = [
     art: '../content/images/operators/kafka.png'
   },
   {
-    name: 'kaltsit',
+    name: "kal'tsit",
     art: '../content/images/operators/kaltsit.webp'
   },
   {
@@ -892,7 +892,7 @@ const operator = [
     art: '../content/images/operators/thorns.png'
   },
   {
-    name: 'thrm ex',
+    name: 'thrm-ex',
     art: '../content/images/operators/thrm-ex.png'
   },
   {
