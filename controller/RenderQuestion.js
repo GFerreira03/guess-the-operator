@@ -15,5 +15,5 @@ function getRandomOperator() {
   img.classList.remove('reveal-op');
   img.src = questionOperator.art;
   canAnswer = true;
-  answer.value = "";
+  document.getElementById('answer-input').value == "";
 }
