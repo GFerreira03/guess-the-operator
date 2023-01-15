@@ -13,6 +13,7 @@ function showPopup() {
     if (width <= 1) {
       resetMatch();
       clearInterval(id);
+      answer.value = '';
     }
     width -= .1;
     popup.style.setProperty('--width', width);

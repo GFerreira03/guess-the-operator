@@ -1,8 +1,12 @@
 let answer;
+
+document.addEventListener("DOMContentLoaded", () => {
+  answer = document.getElementById('answer-input');
+})
+
 document.addEventListener("keypress", function (e) {
   if (e.key === "Enter" && canAnswer == true) {
     canAnswer = false;
-    answer = document.getElementById('answer-input');
     img.classList.add('reveal-op');
     answer.disabled = true;
     if (answer.value.toLowerCase().trim() === questionOperator.name) {
@@ -10,7 +14,10 @@ document.addEventListener("keypress", function (e) {
       if (parseInt(document.getElementById('score').innerHTML) == 10) {
         img.classList.add('level-2');
       }
-      setTimeout(newRound, 3000);
+      setTimeout(() => {
+        newRound();
+        answer.value = '';
+      }, 3000);
     } else {
       showPopup();
     }

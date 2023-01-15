@@ -1,8 +1,11 @@
 var img;
 let questionOperator;
 let canAnswer;
-window.onload = function () {
+
+document.addEventListener("DOMContentLoaded", () => {
   img = document.getElementById('question-img');
+})
+window.onload = function () {
   getRandomOperator();
 }
 
@@ -15,5 +18,4 @@ function getRandomOperator() {
   img.classList.remove('reveal-op');
   img.src = questionOperator.art;
   canAnswer = true;
-  document.getElementById('answer-input').value == "";
 }

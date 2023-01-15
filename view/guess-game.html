@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../content/css/general.css">
+  <link rel="stylesheet" href="../content/css/questions.css">
+  <link rel="stylesheet" href="../content/css/popup.css">
+
+  <script src="../model/OperatorModel.js"></script>
+  <script src="../controller/RenderQuestion.js"></script>
+  <script src="../controller/AnswerCheck.js"></script>
+  <script src="../view/WrongAnswerPopup.js"></script>
+
+  <title>Arknights Guess Game</title>
+</head>
+
+<body>
+  <main>
+    <div class="main-inner-wrapper">
+      <div class="left-section">
+        <!-- Que coisa feia... Trapaceando.-->
+        <img src="" id="question-img">
+      </div>
+      <div class="right-section">
+        <h3 id="score">0</h3>
+        <input type="text" placeholder="Quem sou eu?" id="answer-input">
+      </div>
+    </div>
+    <div id="popup" hidden>
+      Errou... O correto é:
+    </div>
+  </main>
+</body>
+
+</html>

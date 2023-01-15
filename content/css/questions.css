@@ -1,7 +1,3 @@
-body {
-  background-color: #e9e9e9;
-}
-
 .main-inner-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -35,7 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 0 6em;
+  padding: 0 1em;
 }
 
 #answer-input {
@@ -44,11 +40,15 @@ body {
   flex: 1;
 
   text-align: center;
-
+  max-width: 760px;
   border: none;
   box-shadow: 10px 10px rgba(0, 0, 0, 0.171);
 
   z-index: 20;
+}
+
+#answer-input:disabled {
+  box-shadow: none;
 }
 
 h3 {
