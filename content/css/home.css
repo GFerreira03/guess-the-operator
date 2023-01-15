@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-wrapper {
+  display: grid;
+}
+
+.top-section {
+  font-size: 2em;
+  text-shadow: rgb(187, 187, 187) 5px 5px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  border: none;
+  font-size: 1.5em;
+  background-color: rgba(255, 255, 255, 0);
+  padding: .6ch;
+  text-decoration: none;
+  color: black;
+  transition: all .15s;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
